@@ -21,6 +21,7 @@ All programs are implemented in **C++**, focusing on networking principles and p
   ```bash
   ./crc_encoder input_file output_file generator dataword_size
   ./crc_decoder input_file output_file result_file generator dataword_size
+  ```
 
   ### 🔄 Example Flow (HW1: CRC)
 
@@ -56,8 +57,7 @@ Simulates routing table construction and updates using:
 ```bash
 ./linkstate topology.txt messages.txt changes.txt
 ./distvec topology.txt messages.txt changes.txt
-
-
+```
 
 ### 🛠 Technologies Used
 
